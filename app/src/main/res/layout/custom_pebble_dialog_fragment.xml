@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/rebble_foreground_grey">
+    android:background="@color/rebble_foreground">
 
     <TextView
         android:id="@+id/cd_header"
@@ -12,7 +12,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/no_pebble"
-        android:textColor="@color/text_light"
+        android:textColor="@color/text_on_background"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/requires_pebble"
-        android:textColor="@color/text_light"
+        android:textColor="@color/text_on_background"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
         android:layout_marginEnd="16dp"
         android:background="@color/rebble_orange"
         android:text="@string/get_pebble"
-        android:textColor="@color/text_dark"
+        android:textColor="@color/text_on_orange"
         app:backgroundTint="@color/rebble_orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

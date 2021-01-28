@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="rebble_background">#FF333333</color>
+<color name="rebble_foreground">#FF484848</color>
+<color name="rebble_orange">#FFF9A285</color>
+<color name="text_on_orange">#B3000000</color>
+<color name="text_on_background">#FFFFFFFF</color>
+<color name="text_on_background_secondary">#80FFFFFF</color>
+</resources>
